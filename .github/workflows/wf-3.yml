@@ -15,7 +15,8 @@ jobs:
     - name: Run tests
       run: npm test
 
-  deploy: # job 2
+  deploy: # job 
+  continue-on-error : true # this is applicable to job level, deploy job will not run if test job fails
     needs: test # this is applicable to job level, deploy job will run only after successful completion of test job
     runs-on: ubuntu-latest
     steps:
