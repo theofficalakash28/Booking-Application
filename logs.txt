@@ -1,0 +1,4 @@
+I0426 04:50:41.755030       1 controllermanager.go:781] "Started controller" controller="daemonset-controller"
+I0426 04:50:41.755141       1 daemon_controller.go:310] "Starting daemon sets controller" logger="daemonset-controller"
+I0426 04:50:42.897234       1 resource_quota_monitor.go:227] "QuotaMonitor created object count evaluator" logger="resourcequota-controller" resource="daemonsets.apps"
+I0426 15:43:54.312464       1 taint_eviction.go:111] "Deleting pod" logger="taint-eviction-controller" controller="taint-eviction-controller" pod="default/nginx-daemonset-q9cwl"

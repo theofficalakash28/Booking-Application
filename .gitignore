@@ -1,0 +1,14 @@
+.terraform/
+.DS_Store
+LICENSE.txt
+readme.md
+terraform.tfstate
+terraform.tfstate.backup
+*.tfvars
+*.log
+*.tfvars.json
+*.tfvars.yaml
+*.tfvars.yml
+*.tfvars.tf 
+.terraform.lock.hcl 
+terraform-provider-aws_*
